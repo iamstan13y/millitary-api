@@ -1,4 +1,6 @@
-﻿namespace RudoRwedu.API.Models.Data
+﻿using Millitary.API.Models.Data;
+
+namespace RudoRwedu.API.Models.Data
 {
     public class Company
     {
