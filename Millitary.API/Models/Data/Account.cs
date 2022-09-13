@@ -1,7 +1,7 @@
-﻿using RudoRwedu.API.Enums;
+﻿using Millitary.API.Enums;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace RudoRwedu.API.Models.Data
+namespace Millitary.API.Models.Data
 {
     public class Account
     {
