@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RudoRwedu.API.Enums;
-using RudoRwedu.API.Models.Data;
-using RudoRwedu.API.Models.Local;
-using RudoRwedu.API.Models.Repository.IRepository;
+using Millitary.API.Enums;
+using Millitary.API.Models.Data;
+using Millitary.API.Models.Local;
+using Millitary.API.Models.Repository.IRepository;
 
-namespace RudoRwedu.API.Controllers
+namespace Millitary.API.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
