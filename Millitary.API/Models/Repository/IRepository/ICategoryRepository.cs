@@ -1,4 +1,4 @@
-﻿using RudoRwedu.API.Models.Data;
+﻿using Millitary.API.Models.Data;
 
 namespace RudoRwedu.API.Models.Repository.IRepository
 {
