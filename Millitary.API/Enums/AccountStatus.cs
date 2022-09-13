@@ -1,4 +1,4 @@
-﻿namespace RudoRwedu.API.Enums
+﻿namespace Millitary.API.Enums
 {
     public enum AccountStatus
     {
