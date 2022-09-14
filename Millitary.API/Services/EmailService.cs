@@ -1,9 +1,8 @@
-﻿using RudoRwedu.API.Models.Data;
-using RudoRwedu.API.Models.Local;
+﻿using Millitary.API.Models.Local;
 using System.Net;
 using System.Net.Mail;
 
-namespace RudoRwedu.API.Services
+namespace Millitary.API.Services
 {
     public class EmailService : IEmailService
     {
