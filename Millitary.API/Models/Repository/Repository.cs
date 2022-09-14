@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RudoRwedu.API.Models.Data;
-using RudoRwedu.API.Models.Local;
-using RudoRwedu.API.Models.Repository.IRepository;
+using Millitary.API.Models.Data;
+using Millitary.API.Models.Local;
+using Millitary.API.Models.Repository.IRepository;
 using System.Linq.Expressions;
 
-namespace RudoRwedu.API.Models.Repository
+namespace Millitary.API.Models.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {
