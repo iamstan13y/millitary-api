@@ -29,18 +29,19 @@ namespace Millitary.API.Controllers
                 Email = request.Email,
                 Password = request.Password,
                 PhoneNumber = request.PhoneNumber,
-                Status = AccountStatus.Unverified,
+                AccountStatus = AccountStatus.Verified,
                 DateCreated = DateTime.Now
             });
 
             if (!result.Success) return BadRequest(result);
 
-            await _unitOfWork.Company.AddAsync(new Company
+            await _unitOfWork.Company.AddAsync(new Soldier
             {
                 AccountId = result.Data!.Id,
-                CategoryId = request.CategoryId,
-                Location = request.Location,
-                Name = request.CompanyName
+                FirstName = request.FirstName,
+                ForceId = request.ForceId,
+                NationalId = request.NationalId,
+                LastName = request.LastName
             });
 
             return Ok(result);
