@@ -1,4 +1,4 @@
-﻿namespace RudoRwedu.API.Services
+﻿namespace Millitary.API.Services
 {
     public interface IPasswordService
     {
