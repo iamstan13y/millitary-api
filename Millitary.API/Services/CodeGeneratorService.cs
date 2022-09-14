@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace RudoRwedu.API.Services
+namespace Millitary.API.Services
 {
     public class CodeGeneratorService : ICodeGeneratorService
     {
