@@ -7,13 +7,13 @@ namespace Millitary.API.Models.Repository
     {
         private readonly AppDbContext _context;
         public IRoleRepository Role { get; private set; }
-        public ICompanyRepository Company { get; private set; }
+        public ISoldierRepository Soldier { get; private set; }
         public ICategoryRepository Category { get; private set; }
 
         public UnitOfWork(AppDbContext context)
         {
             Role = new RoleRepository(context);
-            Company = new SoldierRepository(context);
+            Soldier = new SoldierRepository(context);
             Category = new CategoryRepository(context);
             _context = context;
         }

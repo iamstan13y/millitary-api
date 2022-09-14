@@ -3,7 +3,7 @@
     public interface IUnitOfWork
     {
         IRoleRepository Role { get; }
-        ICompanyRepository Company { get; }
+        ISoldierRepository Soldier { get; }
         ICategoryRepository Category { get; }
         void SaveChanges();
     }
