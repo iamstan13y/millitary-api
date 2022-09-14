@@ -1,4 +1,4 @@
-﻿namespace RudoRwedu.API.Models.Data
+﻿namespace Millitary.API.Models.Local
 {
     public class EmailRequest
     {
