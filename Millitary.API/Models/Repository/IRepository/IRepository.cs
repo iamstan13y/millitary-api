@@ -1,7 +1,7 @@
-﻿using RudoRwedu.API.Models.Local;
+﻿using Millitary.API.Models.Local;
 using System.Linq.Expressions;
 
-namespace RudoRwedu.API.Models.Repository.IRepository
+namespace Millitary.API.Models.Repository.IRepository
 {
     public interface IRepository<T> where T : class
     {
