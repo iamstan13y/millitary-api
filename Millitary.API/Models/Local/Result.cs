@@ -1,4 +1,4 @@
-﻿namespace RudoRwedu.API.Models.Local
+﻿namespace Millitary.API.Models.Local
 {
     public class Result<T>
     {
