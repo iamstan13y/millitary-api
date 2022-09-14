@@ -1,6 +1,6 @@
-﻿using RudoRwedu.API.Models.Data;
+﻿using Millitary.API.Models.Data;
 
-namespace RudoRwedu.API.Services
+namespace Millitary.API.Services
 {
     public interface IJwtService
     {
