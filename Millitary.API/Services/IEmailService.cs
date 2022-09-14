@@ -1,7 +1,6 @@
-﻿using RudoRwedu.API.Models.Data;
-using RudoRwedu.API.Models.Local;
+﻿using Millitary.API.Models.Local;
 
-namespace RudoRwedu.API.Services
+namespace Millitary.API.Services
 {
     public interface IEmailService
     {
