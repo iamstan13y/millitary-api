@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography;
 
-namespace RudoRwedu.API.Services
+namespace Millitary.API.Services
 {
     public class PasswordService : IPasswordService
     {
