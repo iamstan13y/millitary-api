@@ -2,9 +2,9 @@
 using System.Text;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
-using RudoRwedu.API.Models.Data;
+using Millitary.API.Models.Data;
 
-namespace RudoRwedu.API.Services
+namespace Millitary.API.Services
 {
     public class JwtService : IJwtService
     {
