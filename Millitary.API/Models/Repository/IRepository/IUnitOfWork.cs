@@ -1,4 +1,4 @@
-﻿namespace RudoRwedu.API.Models.Repository.IRepository
+﻿namespace Millitary.API.Models.Repository.IRepository
 {
     public interface IUnitOfWork
     {
