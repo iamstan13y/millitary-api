@@ -1,11 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
-using RudoRwedu.API.Enums;
-using RudoRwedu.API.Models.Data;
-using RudoRwedu.API.Models.Local;
-using RudoRwedu.API.Models.Repository.IRepository;
-using RudoRwedu.API.Services;
+﻿using Millitary.API.Models.Local;
+using Millitary.API.Enums;
+using Millitary.API.Models.Data;
+using Millitary.API.Models.Repository.IRepository;
+using Millitary.API.Services;
 
-namespace RudoRwedu.API.Models.Repository
+namespace Millitary.API.Models.Repository
 {
     public class AccountRepository : IAccountRepository
     {
