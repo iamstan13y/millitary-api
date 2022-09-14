@@ -1,7 +1,8 @@
-﻿using RudoRwedu.API.Models.Data;
-using RudoRwedu.API.Models.Local;
+﻿using Millitary.API.Models.Local;
+using Millitary.API.Models.Data;
+using Millitary.API.Models.Local;
 
-namespace RudoRwedu.API.Models.Repository.IRepository
+namespace Millitary.API.Models.Repository.IRepository
 {
     public interface IAccountRepository
     {
