@@ -1,7 +1,7 @@
-﻿using RudoRwedu.API.Models.Data;
-using RudoRwedu.API.Models.Repository.IRepository;
+﻿using Millitary.API.Models.Data;
+using Millitary.API.Models.Repository.IRepository;
 
-namespace RudoRwedu.API.Models.Repository
+namespace Millitary.API.Models.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {
@@ -13,7 +13,7 @@ namespace RudoRwedu.API.Models.Repository
         public UnitOfWork(AppDbContext context)
         {
             Role = new RoleRepository(context);
-            Company = new CompanyRepository(context);
+            Company = new SoldierRepository(context);
             Category = new CategoryRepository(context);
             _context = context;
         }
